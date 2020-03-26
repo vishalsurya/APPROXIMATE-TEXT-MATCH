@@ -4,7 +4,7 @@ APPROX EQUALS AND APPROX CONTAINS
 Implementation of a new algorithm to find approximate/exact matches between strings. The class consists of two functions and a main function.
  * The two functions are approximately equals and approximately contains.
  * The main function takes the user input.
- * Input param1 - String needle
+ *       param1 - String needle
  *       param2- String haystack
  *       param3- The function name "eq" for approximately equals and "co" for approximately contains
  *       Param 4- The threshold value for similarity (0,1] 1 - for exact match
@@ -36,7 +36,7 @@ FUNCTION NAME - APPROXIMATE_EQUALS
      *
    FUNCTION NAME - APPROXIMATE CONTAINS
      
-     * * Input param1 - String needle
+     * *     param1 - String needle
      *       param2- String haystack
      *       param3- The function name "eq" for approximately equals and "co" for approximately contains
      *       Param 4- The threshold value for similarity (0,1] 1 - for exact match

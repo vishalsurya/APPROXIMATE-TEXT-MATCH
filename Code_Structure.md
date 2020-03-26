@@ -1,6 +1,7 @@
 # APPROXIMATE-TEXT-MATCH
 APPROX EQUALS AND APPROX CONTAINS
- *Implementation of a new algorithm to find approximate/exact matches between strings. The class consists of two functions and a main function.
+ 
+Implementation of a new algorithm to find approximate/exact matches between strings. The class consists of two functions and a main function.
  * The two functions are approximately equals and approximately contains.
  * The main function takes the user input.
  * Input param1 - String needle

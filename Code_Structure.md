@@ -14,36 +14,28 @@ Implementation of a new algorithm to find approximate/exact matches between stri
      /*
 FUNCTION NAME - APPROXIMATE_EQUALS
 
-     * Input param1 - String needle
+     *       param1 - String needle
      *       param2- String haystack
      *       param3- The function name "eq" for approximately equals and "co" for approximately contains
      *       Param 4- The threshold value for similarity (0,1] 1 - for exact match
      *
      *
-     *       if needle length is greater than haystack length we swap the two values and continue.
-     *
-     *       Checks if the string and needle are exactly equal. If yes , no matter any threshold, it returns true.
-     *       If they are not equal but the threshold given is 1 which measns the user is expecting an exact match ,
-     *       then it checks if there is an exact match and prints the result.
-     *
-     *       If the user enters any value between 0 and 1 for the threshold, then the function returns true if the
-     *       similarity ratio > threshold and returns false if the similarity ratio is <threshold.
-     *
+     *       If needle length is greater than haystack length we swap the two values and continue.Checks if the string and needle are exactly equal. If yes , no matter any threshold, it returns true.If they are not equal but the threshold given is 1 which measns the user is expecting an exact match, then it checks if there is an exact match and prints the result.If the user enters any value between 0 and 1 for the threshold, then the function returns true if the similarity ratio > threshold and returns false if the similarity ratio is <threshold.
      *       Similarity ratio= 1-levenshtein edit distance/max(length(needle,haystack))
-     *
+ 
      * */
        /*
      *
    FUNCTION NAME - APPROXIMATE CONTAINS
      
-     * *     param1 - String needle
+     *       param1 - String needle
      *       param2- String haystack
      *       param3- The function name "eq" for approximately equals and "co" for approximately contains
      *       Param 4- The threshold value for similarity (0,1] 1 - for exact match
      *
      *
      *
-     *       if needle length is greater than haystack length we swap the two values and continue.
+     *       If needle length is greater than haystack length we swap the two values and continue.
      *
      *       Checks if needle is an exact substring of haystack. if yes it returns TRUE no matter any threshold value.
      *       If the user requires an exact match giving a threshold of 1 expecting an exact contains, then

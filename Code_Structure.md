@@ -1,7 +1,7 @@
-# APPROXIMATE-TEXT-MATCH
-APPROX EQUALS AND APPROX CONTAINS
+# FUZZY-TEXT-MATCH-SIMILARITY
+FUZZY EQUALS AND FUZZY CONTAINS
  
-Implementation of a new algorithm to find approximate/exact matches between strings exploiting the levenshtein distance algorithm. The class consists of two functions and a main function.
+Implementation of a new algorithm to find FUZZY/EXACT matches between strings exploiting the levenshtein distance algorithm given a minimum similarity threshold. The class consists of two functions and a main function.
  * The two functions are approximately equals and approximately contains.
  * The main function takes the user input.
  *       param1 - String needle

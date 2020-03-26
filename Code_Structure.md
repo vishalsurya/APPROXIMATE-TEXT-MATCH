@@ -13,7 +13,8 @@ FUNCTION NAME - APPROXIMATE_EQUALS
      *       param1 - String needle
      *       param2- String haystack
      *       Param3- The threshold value for similarity (0,1] 1 - for exact match
-     *       If needle length is greater than haystack length we swap the two values and continue.Checks if the string and needle are exactly equal. If yes , no matter any threshold, it returns true.If they are not equal but the threshold given is 1 which measns the user is expecting an exact match, then it checks if there is an exact match and prints the result.If the user enters any value between 0 and 1 for the threshold, then the function returns true if the similarity ratio > threshold and returns false if the similarity ratio is <threshold.
+     *       If needle length is greater than haystack length we swap the two values and continue.Checks if the string and needle are exactly equal. If yes , no matter any threshold, it returns true.
+     If they are not equal but the threshold given is 1 which measns the user is expecting an exact match, then it checks if there is an exact match and prints the result.If the user enters any value between 0 and 1 for the threshold, then the function returns true if the similarity ratio > threshold and returns false if the similarity ratio is <threshold.
      *       Similarity ratio= 1-levenshtein edit distance/max(length(needle,haystack))
    FUNCTION NAME - APPROXIMATE CONTAINS
      

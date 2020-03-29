@@ -5,7 +5,6 @@ Implementation of a new algorithm to find if a string is exactly/approximately c
 
 CODE STRUCTURE :
 The class consists of 3 functions.
- * The two functions are approximately equals and approximately contains.
 FUNCTION NAME - MAIN
      *       param1 - String needle
      *       param2- String haystack

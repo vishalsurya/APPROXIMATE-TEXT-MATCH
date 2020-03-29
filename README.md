@@ -4,7 +4,8 @@ FUZZY EQUALS AND FUZZY CONTAINS
 Implementation of a new algorithm to find if a string is exactly/approximately contained as well as exactly/approximately equals another string exploiting the levenshtein distance algorithm. Given a minimum similarity threshold by the user, the algorithm returns a boolean if the calculated similarity ratio between the two strings is greater than the threshold provided by the user. 
 
 CODE STRUCTURE :
-The class consists of 3 functions.
+* The class consists of 3 functions.
+
 FUNCTION NAME - MAIN
      *       param1 - String needle
      *       param2- String haystack

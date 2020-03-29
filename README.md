@@ -7,10 +7,10 @@ CODE STRUCTURE :
 The class consists of 3 functions.
  * The two functions are approximately equals and approximately contains.
 FUNCTION NAME - MAIN
- *       param1 - String needle
- *       param2- String haystack
- *       param3- The function name "eq" for approximately equals and "co" for approximately contains
- *       Param4- The threshold value for similarity (0,1] 1 - for exact match 
+     *       param1 - String needle
+     *       param2- String haystack
+     *       param3- The function name "eq" for approximately equals and "co" for approximately contains
+     *       Param4- The threshold value for similarity (0,1] 1 - for exact match 
 FUNCTION NAME - APPROXIMATE_EQUALS
 
      *       param1 - String needle

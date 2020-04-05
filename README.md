@@ -1,4 +1,18 @@
 # FUZZY-STRING_EQUALS AND FUZZY STRING_CONTAINS
+
+DEMO:
+
+Instructions to run JAR file:
+Downlaod the jar file SAMPLERUN.jar
+Open the command line and enter the commmand
+java -jar [path to the downloaded jar in your local system ].
+INPUTS:
+parameter1 - String1
+parameter2 - String2
+parameter3 - method name - co for approximately contains eq for approximately equals
+parameter4 - threshold value - (0,1]. 0 is trivial case which returns match for every pair of strings
+
+
 FUZZY EQUALS AND FUZZY CONTAINS
  
 Implementation of a new algorithm to find if a string is exactly/approximately contained as well as exactly/approximately equals another string exploiting the levenshtein distance algorithm. Given a minimum similarity threshold by the user, the algorithm returns a boolean if the calculated similarity ratio between the two strings is greater than the threshold provided by the user. 
